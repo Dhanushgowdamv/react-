@@ -1,14 +1,13 @@
-import React  from 'react'
-import { useContext } from 'react';
-import userContext from '../context/userContext';
+import React from 'react'
+import { useContext } from 'react'
+import userContext from '../context/userContext'
 
+function Pro() {
+  const { user } = useContext(userContext)
+  console.log("User in Pro component:", user)
+  if (!user) return <div>Please login</div>
 
-function Pro ()  {
-    const {user} = useContext(userContext);
-    if(!user) return <div>please login</div>
-  
-    return <div>welcome{user.username}</div>
-  
+  return <div>Welcome {user.username}</div>
 }
 
 export default Pro

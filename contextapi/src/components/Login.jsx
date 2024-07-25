@@ -1,11 +1,11 @@
 import React,{useState , useContext} from 'react'
 import userContext from '../context/userContext'
 
-const Login = () => {
+function Login () {
     const [username, setusername] = useState("00")
     const [password, setpassword] = useState("00")
     const {setuser} = useContext (userContext)
-const handlesubmit =(e) =>{
+const handlesubmit = (e) =>{
    e.preventDefult()
    setuser({username,password})
 }

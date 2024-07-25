@@ -1,21 +1,16 @@
-import { useState } from 'react'
-
 import './App.css'
-import Usercontextrovider from './context/Usercontextrovider'
-import Login from './components/Login'
+import UserContextProvider from './context/UserContextProvider'
+
 import Pro from './components/Pro'
-
-
+import Log from './components/Log'
 
 function App() {
-  
   return (
-    <Usercontextrovider>
-      <h1>hi fhdoihgfoihb</h1>
-    <Login/>
-   <Pro/>
-
-    </Usercontextrovider>
+    <UserContextProvider>
+      <h1>hi</h1>
+      <Log />
+      <Pro />
+    </UserContextProvider>
   )
 }
 
