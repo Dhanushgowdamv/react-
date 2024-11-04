@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <h1 className='bg-green-600 text-black p-4 rounded rounded-xl'>Tailwind</h1>
+    <h1 className='bg-green-600 text-black p-4  rounded-xl'>Tailwind</h1>
 <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
   <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="https://plus.unsplash.com/premium_photo-1669864070322-7a266ffceccb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D " alt="" width="384" height="512" />
   <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
